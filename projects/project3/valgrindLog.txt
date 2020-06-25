@@ -1,0 +1,47 @@
+==5429== Memcheck, a memory error detector
+==5429== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5429== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==5429== Command: ./server main.txt
+==5429==
+Query Topics:
+Topic ID: 1, Name: Mountains, Topic Length: 5
+Topic ID: 2, Name: Flower/Water, Topic Length: 10
+Topic ID: 3, Name: Bagels, Topic Length: 15
+Query Publishers:
+Publisher proxy thread ID: 1, file name: publisher.txt
+Query Subscribers:
+Subscriber proxy thread ID: 1, file name: subscriber.txt
+##### STARTING ALL #####
+Starting cleaner
+Proxy thread: 1 - type: Subscriber
+Proxy thread 1- type: Publisher
+Proxy thread 1- type: Publisher - Executed command: put
+Proxy thread 1- type: Subscriber - Executed command: get
+Proxy thread 1- type: Publisher - Executed command: sleep
+Proxy thread 1- type: Publisher - Executed command: put
+Proxy thread 1- type: Publisher - Executed command: put
+Proxy thread 1- type: Subscriber - Executed command: sleep
+Proxy thread 1- type: Subscriber - Executed command: get
+Proxy thread 1- type: Subscriber - Executed command: get
+Proxy thread 1- type: Publisher - Executed command: sleep
+Proxy thread 1- type: Publisher - Executed command: put
+Proxy thread 1- type: Publisher - Executed command: put
+Proxy thread 1- type: Publisher - Executed command: put
+Proxy thread 1- type: Subscriber - Executed command: sleep
+Proxy thread 1- type: Subscriber - Executed command: get
+Proxy thread 1- type: Subscriber - Executed command: get
+Proxy thread 1- type: Subscriber - Executed command: get
+Proxy thread 1- type: Publisher - Executed command: sleep
+Proxy thread 1- type: Publisher - Executed command: stop
+Proxy thread 1- type: Subscriber - Executed command: sleep
+Proxy thread 1- type: Subscriber - Executed command: stop
+##### ALL STOPPED #####
+==5429==
+==5429== HEAP SUMMARY:
+==5429==     in use at exit: 0 bytes in 0 blocks
+==5429==   total heap usage: 40 allocs, 40 frees, 27,598 bytes allocated
+==5429==
+==5429== All heap blocks were freed -- no leaks are possible
+==5429==
+==5429== For counts of detected and suppressed errors, rerun with: -v
+==5429== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,10 @@
+put 1 "https://tse3.mm.bing.net/th?id=OIP.ZrtlYi2xId0z8HsdTRbtSwHaHa&pid=Api&P=0&w=300&h=300" "This is a pineapple!!"
+sleep 500
+put 2 "https://tse4.mm.bing.net/th?id=OIP.-xma7ShpJyAnZL_pAUyizAHaLG&pid=Api&P=0&w=300&h=300" "Chocolate sprinkled donuts!"
+put 2 "https://tse2.mm.bing.net/th?id=OIP.c52Elc7garvgD3WrCnjEqQHaFj&pid=Api&P=0&w=226&h=170" "Kripsy Kreme donuts, the best ones around (not in Eugene...)."
+sleep 500
+put 3 "https://tse3.mm.bing.net/th?id=OIP.50YUE-Uxg1ssXPSMPM62OQHaEK&pid=Api&P=0&w=296&h=167" "This is an assortment of bagels!"
+put 3 "https://tse3.mm.bing.net/th?id=OIP.SzWppaNNEKA5qinEBX-OGwHaFy&pid=Api&P=0&w=221&h=174" "Plain bagel here"
+put 3 "https://tse4.mm.bing.net/th?id=OIP.gUl7VuulkDgQuYaqGbgeMAHaHa&pid=Api&P=0&w=300&h=300" "A bagel with cream cheese, personally I think you need cream cheese"
+sleep 500
+stop
